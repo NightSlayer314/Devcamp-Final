@@ -1,0 +1,116 @@
+/* Nav bar - General Styles */
+.navigation-wrapper {
+    height: 5px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 30px;
+}
+
+.links-wrapper > .nav-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+/* Left Nav Bar */
+.main > .navigation-wrapper > .left-column > .logo-wrapper img {
+    height: 30px;
+}
+
+.main > .navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.main > .navigation-wrapper > .left-column > .icon-wrapper i {
+    font-size: 10px;
+    color: grey;
+}
+
+/* Right Nav Bar */
+.main > .navigation-wrapper > .right-column > .create-wrapper {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.main > .navigation-wrapper > .right-column > .log-in-wrapper{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}  
+
+.main > .navigation-wrapper > .right-column > .sign-up-wrapper{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}    
+
+.main > .navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+
+.main > .navigation-wrapper > .right-column > .create-wrapper > .nav-link > .create-box {
+    background-color: gray;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.main > .navigation-wrapper > .right-column > .create-wrapper > .nav-link > .create-box > .create-icon-wrapper{
+    font-size: 25px;
+    color: limegreen;
+}
+
+.main > .navigation-wrapper > .right-column > .search-icon-wrapper{
+    font-size: 25px;
+    color: darkslategray;
+    margin-left: 10px;
+}
+
+.main > .navigation-wrapper > .right-column > .log-in-wrapper > .nav-link > .log-in-box {
+    background-color: gray;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.main > .navigation-wrapper > .right-column > .sign-up-wrapper > .nav-link > .sign-up-box {
+    background-color: gray;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+/* Screenshot styles */
+.main > .website-picture-wrapper img {
+    width: 1000px;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 900px;
+    margin-top: 25px;
+}
